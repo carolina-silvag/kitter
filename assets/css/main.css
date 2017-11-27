@@ -3,7 +3,6 @@
   margin:0;
   padding:0;
 }
-
 .paisaje{
   background: url(../images/dawn.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -11,7 +10,7 @@
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
-
+  
 }
 
 .cat{
