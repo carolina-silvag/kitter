@@ -1,0 +1,39 @@
+@media (min-width: 535px) and (max-width: 824px) {
+  [class*="paisaje"]{
+    background: url(../images/night.jpg) no-repeat center center fixed;
+  }
+  [class*="cat"] img{
+    width: 100%;
+  }
+  [class*="cat"]{
+    background-image: url(../images/kitten-medium.png);
+    margin-top: 35%;
+    width: 50%;
+    height: 250px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 534px){
+  [class*="paisaje"]{
+    background: url(../images/sunny-day.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+  }
+
+  [class*="cat"] img{
+    width: 100%;
+  }
+
+  [class*="cat"]{
+    display: inline-block;
+    background-image: url(../images/kitten-small.png);
+    background-size: cover;
+    margin-top: 70%;
+    width: 60%;
+    height: 200px;
+    background-size: 100% 100%;
+  }
+}

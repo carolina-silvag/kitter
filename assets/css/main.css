@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+.paisaje{
+  background: url(../images/dawn.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+
+}
+
+.cat{
+  display: inline-block;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background:url(../images/kitten-large.png);
+  margin-top: 25%;
+  width: 48%;
+  height: 300px;
+  background-size: 100% 100%;
+}
+
+.cat img{
+  width: 100%;
+}
+
