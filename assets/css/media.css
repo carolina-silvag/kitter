@@ -1,31 +1,25 @@
 @media (min-width: 535px) and (max-width: 824px) {
   [class*="paisaje"]{
-    background: url(../images/night.jpg) no-repeat center center fixed;
+    background: url(../images/sunny-day.jpg) no-repeat center center fixed;
   }
-  [class*="cat"] img{
-    width: 100%;
+  [class*="kitten1"] {
+    display: none;
   }
-  [class*="cat"]{
-    background-image: url(../images/kitten-small.png);
-    margin-top: 47%;
-    width: 50%;
-    height: 250px;
+  [class*="kitten2"]{
+    display: inline-block;
   }
 }
 
 @media (min-width: 200px) and (max-width: 534px){
   [class*="paisaje"]{
-    background: url(../images/sunny-day.jpg) no-repeat center center fixed;
+    background: url(../images/night.jpg) no-repeat center center fixed;
   }
 
-  [class*="cat"] img{
-    width: 100%;
+  [class*="kitten1"] {
+    display: none;
   }
 
-  [class*="cat"]{
-    background-image: url(../images/kitten-medium.png);
-    margin-top: 80%;
-    width: 60%;
-    height: 200px;
+  [class*="kitten3"]{
+    display:  inline-block;
   }
 }
