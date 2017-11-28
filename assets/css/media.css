@@ -1,6 +1,8 @@
 @media (min-width: 535px) and (max-width: 824px) {
   [class*="paisaje"]{
     background: url(../images/sunny-day.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center; 
   }
   [class*="kitten1"] {
     display: none;
@@ -13,6 +15,8 @@
 @media (min-width: 200px) and (max-width: 534px){
   [class*="paisaje"]{
     background: url(../images/night.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center; 
   }
 
   [class*="kitten1"] {
